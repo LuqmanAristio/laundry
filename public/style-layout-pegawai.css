@@ -1,0 +1,246 @@
+.info-pegawai{
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+}
+.info-aktif{
+    float: left;
+    width: 300px;
+    height: 110px;
+    background-color: #19342D;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 5px -1px rgba(0,0,0,0.43);
+}
+.info-mati{
+    float: left;
+    width: 300px;
+    height: 110px;
+    background-color: #262626;
+    margin-left: 15px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 5px -1px rgba(0,0,0,0.43);
+}
+.logo-peg{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.logo-peg i{
+    color: white;
+    font-size: 55px;
+}
+.pegawai{
+    width: 68%;
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.pegawai h3{
+    font-weight: bold;
+    margin: 10px 25px;
+    font-size: 30px;
+}
+
+.pegawai h4{
+    font-weight: lighter;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+.list-pegawai{
+    width: 100%;
+    height: 65vh;
+    margin-top: -10px;
+}
+
+.top-list{
+    width: 100%;
+    height: 10%;
+    background-color: #EDEDED;
+    border: 2px solid #D9D9D9;
+    border-radius: 2px;
+}
+
+.kotak-kiri{
+    float: left;
+    width: 250px;
+    height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-list i{
+    font-size: 30px;
+}
+.top-list h4{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bot-list{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-bottom: 2px solid #D9D9D9;
+    border-left: 2px solid #D9D9D9;
+    border-right: 2px solid #D9D9D9;
+}
+
+.search-add{
+    width: 100%;
+    height: 15%;
+}
+
+.add-peg{
+    margin-top: 18px;
+    float: left;
+    width: 200px;
+    background-color: #141E27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-left: 50px;
+}
+
+.add-peg i{
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.add-peg h4{
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.cari-peg{
+    float: right;
+    margin-right: 50px;
+    margin-top: 17px;
+}
+
+.cari-form{
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 55px;
+    padding-right: 20px;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #D9D9D9;
+}
+
+.cari-peg button{
+    padding: 8px 30px;
+    font-size: 13px;
+    border: none;
+    background-color: #141E27;
+    color: white;
+    border-radius: 3px;
+}
+
+.cari-peg i{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #9A9A9A;
+}
+
+.daftar-peg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.daftar-peg table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.thnya{
+    background-color: #141E27;
+    color: white;
+    font-weight: 500;
+}
+.tengah{
+    text-align: center  ;
+}
+
+.daftar-peg table tr td{
+    border: 1px solid #CDCDCD;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+.status{
+    text-align: center;
+    width: 12%;
+}
+
+.status p{
+    background-color: rgb(28, 114, 28);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 0px;
+}
+
+.kolom-list{
+    width: 100%;
+    margin-top: 17px;
+}
+
+nav{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #141E27;
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover{
+    background-color: #141E27;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.detail{
+    text-align: center;
+    width: 180px;
+}
+
+.detail a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 35px;
+    background-color: #141E27;
+    border-radius: 5px;
+}

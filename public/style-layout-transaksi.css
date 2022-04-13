@@ -1,0 +1,267 @@
+.info-transaksi{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.box-info{
+    width: 24%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.left-img{
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.left-img img{
+    width: 75px;
+}
+
+.right-text{
+    width: 55%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+.right-text h3{
+   margin-top: 35px;
+   font-size: 20px;
+}
+
+.right-text h4{
+    font-size: 12px
+}
+
+.left-trx{
+    width: 65%;
+    height: 90%;
+    float: left;
+    margin: 0 15px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.trx-top{
+    width: 170px;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: white;
+    border-radius: 3px;
+}
+
+.form-trx{
+    width: 94%;
+    height: 70%;
+    margin: 10px 30px;
+}
+
+.top-form{
+    width: 100%;
+    background-color: #393E46;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.top-form h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.input-form{
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid #D9D9D9;
+    border-right: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.formnya{
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+form select{
+    width: 220px;
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 3px;
+    color: #222831;
+    outline: none;
+    margin-top: 10px;
+}
+
+form input[type=text]{
+    width: 220px;
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color: #EEEEEE;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #222831;
+}
+
+.title{
+    text-align: left;
+    width: 30%;
+    font-weight: 600;
+    text-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: #222831;
+    font-size: 12px;
+}
+
+.title-unik{
+    text-align: left;
+    width: 20%;
+    font-weight: 600;
+    text-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    color: #222831;
+    font-size: 12px;
+}
+
+.trx-top i{
+    font-size: 25px;
+}
+.trx-top h2{
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 15px;
+}
+button{
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #222831;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 107px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bot-list{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.right-trx{
+    width: 35%;
+    height: 90%;
+    background-color: aliceblue;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 13px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.title-pes{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.line-top{
+    width: 100%;
+    height: 2%;
+    background-color: #222831;
+}
+
+.list-pesanan{
+    margin-top: -10px;
+    width: 130px;
+    height: 30px;
+    background-color: #222831;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.list-pesanan a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.order{
+    margin-left: 20px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.tabel{
+    margin-top: -20px;
+}
+
+.list-order{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.list-order th{
+    border: 1px solid #D9D9D9;
+    padding: 8px 0px;
+    font-size: 10px;
+    background-color: #393E46;
+    color: white;
+    font-weight: 400;
+}
+
+.list-order tr td{
+    border: 1px solid #D9D9D9;
+    padding: 8px 0px;
+    font-size: 10px;
+}
+
+.list-order tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

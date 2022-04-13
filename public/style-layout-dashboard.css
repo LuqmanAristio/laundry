@@ -1,0 +1,185 @@
+.date{
+    width: 100%;
+    height: 6vh;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.welcome{
+    float: left;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.tanggal{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.basic-info{
+    overflow: hidden;
+    width: 100%;
+    height: 22vh;
+    margin-top: 25px;
+}
+
+.box-1{
+    border-radius: 5px;
+    width: 21%;
+    margin-top: 10px;
+    height: 90%;
+    background-color: white;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 1px 4px 5px 2px rgba(56,54,54,0.49);
+}
+.box-2{
+    border-radius: 5px;
+    width: 21%;
+    margin-top: 10px;
+    height: 90%;
+    background-color: white;
+    float: left;
+    margin-left: 37px;
+    box-shadow: 1px 4px 5px 2px rgba(56,54,54,0.49);
+}
+
+.ikon{
+    position: absolute;
+    width: 7%;
+    height: 90px;
+    margin-top: -25px;
+    margin-left: 15px;
+    display:flex;
+    align-items:center;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.ikon i{
+    color: white;
+    font-size: 55px;
+    margin: 0 auto;
+}
+
+.judul h3{
+    width: 100%;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 13px;
+    padding-top: 5px;
+}
+
+.judul h4{
+    width: 100%;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 13px;
+    font-weight: 200;
+    margin-top: 0px
+}
+
+.garis{
+    background-color: black;
+    margin-top: 10px;
+    height: 2px;
+}
+.waktu{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.grafikorder{
+    width: 100%;
+    margin-top: 10px;
+    height: 53vh;
+    overflow: hidden;
+}
+
+.infografik{
+    float: left;
+    width: 64%;
+    height: 97%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 5px 2px rgba(56,54,54,0.49);
+}
+
+.infografik h3{
+    margin-left: 47px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.grafik{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.order{
+    float: left;
+    margin-top: 5px;
+    width: 32%;
+    height: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    box-shadow: 1px 4px 5px 2px rgba(56,54,54,0.49);
+}
+
+.order hr{
+    height: 10px;
+    background-color: black;
+}
+
+.order h3{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-left: 30%;
+}
+
+.tabel{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabel table{
+    border-collapse: collapse;
+}
+
+.tabel table tr th{
+    font-size: 11px;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+.tabel table td{
+    padding: 8px 15px;
+    border-left: none;
+    border-right: none;
+    font-size: 11px
+}
+
+.tabel table th{
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-left: none;
+    border-right: none;
+}

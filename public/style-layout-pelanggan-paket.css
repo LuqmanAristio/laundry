@@ -1,0 +1,238 @@
+.list-pelanggan{
+    width: 100%;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.list-transaksi{
+    width: 100%;
+    height: 65vh;
+    margin-top: 10px;
+}
+
+.top-list{
+    width: 100%;
+    height: 10%;
+    background-color: #EDEDED;
+    border: 2px solid #D9D9D9;
+    border-radius: 2px;
+}
+
+.kotak-kiri{
+    float: left;
+    width: 280px;
+    height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kotak-kiri-paket{
+    float: left;
+    width: 270px;
+    height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kotak-kiri-trx{
+    float: left;
+    width: 300px;
+    height: 100%;
+    color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 45px;
+}
+
+.top-list i{
+    font-size: 27px;
+}
+.top-list h4{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.bot-list{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-bottom: 2px solid #D9D9D9;
+    border-left: 2px solid #D9D9D9;
+    border-right: 2px solid #D9D9D9;
+}
+
+.search-add{
+    width: 100%;
+    height: 15%;
+}
+
+.add-peg{
+    margin-top: 15px;
+    float: left;
+    width: 220px;
+    background-color: #141E27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-left: 50px;
+}
+
+.add-peg i{
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.add-peg h4{
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.cari-peg{
+    float: right;
+    margin-right: 50px;
+    margin-top: 13px;
+}
+
+.cari-form{
+    width: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 55px;
+    padding-right: 20px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #D9D9D9;
+}
+
+.cari-peg button{
+    padding: 7px 30px;
+    font-size: 15px;
+    border: none;
+    background-color: #141E27;
+    color: white;
+    border-radius: 3px;
+}
+
+.cari-peg i{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #9A9A9A;
+}
+
+.daftar-peg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+
+.daftar-peg table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.thnya{
+    background-color: #141E27;
+    color: white;
+    font-weight: 500;
+}
+.daftar-peg table tr td{
+    border: 1px solid #CDCDCD;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.status{
+    text-align: center;
+    width: 12%;
+}
+
+.status p{
+    background-color: rgb(28, 114, 28);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 0px;
+}
+
+.kolom-list{
+    width: 100%;
+    margin-top: 15px;
+}
+nav{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #141E27;
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover{
+    background-color: #141E27;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.detail{
+    text-align: center;
+    width: 200px;
+}
+
+.detail a{
+    text-decoration: none;
+    color: white;
+}
+
+.edit{
+    background-color: #141E27;
+    border-radius: 3px;
+    padding-top: 12px;
+}
+
+.edit i{
+    font-size: 23px;
+    padding: 5px 6px;
+}
+
+.delete{
+    background-color: #b11212;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding-top: 12px;
+}
+
+.delete i{
+    font-size: 23px;
+    padding: 5px 6px;
+}
+
+.tengah{
+    text-align: center;
+}
